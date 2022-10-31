@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/comment-editor/static/css/main.becfa121.css",
+    "main.js": "/comment-editor/static/js/main.06694245.js",
+    "index.html": "/comment-editor/index.html",
+    "main.becfa121.css.map": "/comment-editor/static/css/main.becfa121.css.map",
+    "main.06694245.js.map": "/comment-editor/static/js/main.06694245.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.becfa121.css",
+    "static/js/main.06694245.js"
+  ]
+}
