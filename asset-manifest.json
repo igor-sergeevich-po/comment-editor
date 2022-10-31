@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/igor-sergeevich-po.github.io/comment-editor/static/css/main.becfa121.css",
-    "main.js": "/igor-sergeevich-po.github.io/comment-editor/static/js/main.3fa01889.js",
-    "index.html": "/igor-sergeevich-po.github.io/comment-editor/index.html",
-    "main.becfa121.css.map": "/igor-sergeevich-po.github.io/comment-editor/static/css/main.becfa121.css.map",
-    "main.3fa01889.js.map": "/igor-sergeevich-po.github.io/comment-editor/static/js/main.3fa01889.js.map"
+    "main.css": "/comment-editor/static/css/main.602315b7.css",
+    "main.js": "/comment-editor/static/js/main.3fa01889.js",
+    "index.html": "/comment-editor/index.html",
+    "main.602315b7.css.map": "/comment-editor/static/css/main.602315b7.css.map",
+    "main.3fa01889.js.map": "/comment-editor/static/js/main.3fa01889.js.map"
   },
   "entrypoints": [
-    "static/css/main.becfa121.css",
+    "static/css/main.602315b7.css",
     "static/js/main.3fa01889.js"
   ]
 }
