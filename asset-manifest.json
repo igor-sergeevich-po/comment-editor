@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/comment-editor/static/css/main.602315b7.css",
-    "main.js": "/comment-editor/static/js/main.eb252c90.js",
+    "main.js": "/comment-editor/static/js/main.c062d0b4.js",
     "index.html": "/comment-editor/index.html",
     "main.602315b7.css.map": "/comment-editor/static/css/main.602315b7.css.map",
-    "main.eb252c90.js.map": "/comment-editor/static/js/main.eb252c90.js.map"
+    "main.c062d0b4.js.map": "/comment-editor/static/js/main.c062d0b4.js.map"
   },
   "entrypoints": [
     "static/css/main.602315b7.css",
-    "static/js/main.eb252c90.js"
+    "static/js/main.c062d0b4.js"
   ]
 }
