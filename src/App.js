@@ -1,6 +1,8 @@
 import './App.css';
+import Comments from './components/Comments/Comments.js';
 import Likes from './components/Likes/Likes.js';
-import Title from './components/Title/Title';
+import Title from './components/Title/Title.js';
+
 
 function App() {
   return (
@@ -12,6 +14,7 @@ function App() {
             <Title/>
             <Likes/>
           </div>
+          <Comments />
         </div>
       </div>
     </div>
