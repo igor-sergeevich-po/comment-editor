@@ -1,12 +1,10 @@
-import { COMMENT_CREATE, COMMENT_UPDATE } from "./types"
+import { COMMENT_CREATE, COMMENT_DELETE, COMMENT_UPDATE } from "./types"
 
 const initialState = {
     comments: []
 }
 
 export const commentsReducer = (state=initialState, action) => {
-    console.log('comments Reducer >', action)
-
 
     switch (action.type) {
         case COMMENT_CREATE:
@@ -30,6 +28,25 @@ export const commentsReducer = (state=initialState, action) => {
 
             }
 
+            case COMMENT_DELETE:
+                return (() => {
+                const { id } = action;
+                const { comments } = state;
+                const itemIndex = comments.findIndex(comment => comment.id === id);
+    
+                const nextComments = [
+                    ...comments.slice(0, itemIndex),
+        
+                    ...comments.slice(itemIndex+1)
+                ];
+                return {
+                    ...state,
+                    comments: nextComments
+    
+                }
+                })();
+    
+        
     
         default:
             return state;

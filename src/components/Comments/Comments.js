@@ -20,7 +20,11 @@ function Comments(props) {
     const handleSubmit = (e) => {
         e.preventDefault();
         const id = uniqid();
-        dispatch(commentCreate(textComment, id));
+        if (textComment.length>0) {
+            dispatch(commentCreate(textComment, id));
+        } else {
+            alert('Please press the letter keys')
+        }
     }
     return (
         <div className="card-comments">
