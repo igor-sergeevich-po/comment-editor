@@ -1,8 +1,8 @@
 import SingleComment from "../SingleComment/SingleComment";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import uniqid from 'uniqid';
-import { commentCreate } from '../../redux/actions.js';
+import { commentCreate, commentsLoad } from '../../redux/actions.js';
 
 function Comments(props) {
     const [ textComment, setTextComment ] = useState('');
@@ -26,6 +26,10 @@ function Comments(props) {
             alert('Please press the letter keys')
         }
     }
+
+    useEffect(() => {
+        dispatch(commentsLoad())
+    }, [])
     return (
         <div className="card-comments">
             <form onSubmit={handleSubmit} className="comments-item-create">

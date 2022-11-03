@@ -4,14 +4,14 @@
 .wrap {
   position: relative;
   max-width: 1200px;
-  margin: 140px auto 0;
+  margin: 40px auto;
 }
 .card {
   display: flex;
-  padding: 20px;
+  padding: 10px;
   border: 1px solid #EDEEED;
   box-shadow: 0 0 0 5px rgba(0,0,0,0.03);
-  flex-basis: calc(33.333% - 40px);
+  flex-basis: calc(23.333% - 40px);
   flex-grow: 1;
   flex-shrink: 0;
   margin: 0 20px 20px 20px;
@@ -29,7 +29,7 @@
   max-width: 60%;
 }
 .card-image img {
-  width: 75%;
+  width: 100%;
   margin: 0;
 }
 .card-comments {
@@ -46,7 +46,7 @@
 }
 .button-controls {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-top: 20px;
 }
 .card-title-top {
@@ -59,7 +59,7 @@
 button {
   border: 2px solid #f2f2f2;
   background: none;
-  flex-basis: 48%;
+  flex-basis: 30%;
   display: inline-block;
   line-height: 2;
   text-decoration: none;
@@ -75,9 +75,9 @@ button hover {
   outline: 0;
 }
 input {
-  width: 100%;
+  width: 85%;
   border: 0;
-  padding: 10px 0;
+  padding: 5px 0;
   border-bottom: 1px solid #f2f2f2;
   outline: none;
   resize: vertical;
